@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("fondo.jpg");
+}
+.Sum{
+  height:30px ;
+  width: 30px;
+  margin: 5px;
+}
+.Res{
+  height:30px ;
+  width: 30px;
+  margin: 5px;
+}
+.Mul {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.Div {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.text1{
+  color: white;
+}
+.text2{
+  color: white;
+}
+.Suma{
+  height: 30px;
+  background: white;
+  width: 60px;
+}
+#Resul{
+  color: white;
+}
+#n1{
+  color: greenyellow;
+}
+#n2{
+  color: greenyellow;
+}
