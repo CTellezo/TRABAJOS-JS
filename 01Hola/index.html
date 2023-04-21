@@ -6,14 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Hola Mundo</title>
-  <a href="../Index.html" class="btn btn-primary d-block" >Menu</a> 
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 
 <body>
+  <a href="../Index.html" class="btn btn-primary d-block btn-sm" >Menu</a> 
   <center>
+    
   <h1>Hola mundo</h1>
-  <button class="btn btn-success" onclick="hola()">Hola</button>
-    <button class="btn btn-success" onclick="suma()">Suma</button>
+  
+  <div class="container text-center w-25">
+    <div class="row">
+      <div class="col">
+        <a class="btn btn-success d-block " onclick="hola()">Hola</a>
+      </div>
+      <div class="col">
+        <a class="btn btn-success d-block " onclick="suma()">Suma</a>
+      </div>
+    </div>
+    
+  </div>
   <script src="main.js"></script>
 </center>
 </body>
