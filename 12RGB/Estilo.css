@@ -1,23 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
-
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
 }
 body{
     text-align: center;
+    color: white;
     height: 100vh;
-
+    background: rgb(150,154,10);
 }
 table{
-    margin: 10px auto;
-
+    margin: 30px auto;
 }
 td{
-    padding: 10px;
-
+    padding:50 px;
 }
 span{
     font-size: 20px;
-    font-weight: bold;
-    margin: 5px;
+    font-weight:bold ;
+    margin: 5 px;
 }
