@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signo Zodiacal</title>
+  <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+  <h1>Horoscopo</h1>
+  <hr><br>
+
+  <table style="margin: auto">
+    <tr>
+      <td>
+        <h2>Dia:
+          <input type="range" id="Dia" min="1" max="31" value="1">
+          <span id="SD"> 1</span>
+        </h2>
+    </tr>
+    <tr>
+      <td>
+        <h2>Mes:
+          <select id=Mes>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+          </select>
+        </h2>
+      </td>
+    </tr>
+  </table><br>
+  <div id="Fe">
+<h3>Naciste el :</h3>
+  </div><br>
+  <div id="Ho">
+<h3></h3>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
